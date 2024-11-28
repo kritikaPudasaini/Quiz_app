@@ -1,0 +1,1 @@
+ C:\\Users\\Kritika\\Downloads\\question_answer_app2\\question_answer_app2\\.dart_tool\\flutter_build\\1a5b14297e53094d4539a2f33405b111\\native_assets.yaml: 
