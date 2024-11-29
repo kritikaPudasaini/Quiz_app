@@ -25,15 +25,7 @@ class _QuizScreenState extends State<QuizScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),
         ),
-        // title: Text(
-        //   title,
-        //   textAlign: TextAlign.center,
-        //   style: const TextStyle(
-        //     color: Colors.white,
-        //     fontSize: 24,
-        //     fontWeight: FontWeight.bold,
-        //   ),
-        // ),
+      
         content: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.all(16.0),
@@ -186,14 +178,14 @@ class _QuizScreenState extends State<QuizScreen> {
                         'Score: ',
                         style: TextStyle(
                             color: Colors.amber,
-                            fontWeight: FontWeight.w300,
+                            fontWeight: FontWeight.bold,
                             fontSize: 20),
                       ),
                       Text(
                         '$score',
                         style: const TextStyle(
                             color: Colors.amber,
-                            fontWeight: FontWeight.w700,
+                            fontWeight: FontWeight.bold,
                             fontSize: 20),
                       ),
                     ],
@@ -203,30 +195,30 @@ class _QuizScreenState extends State<QuizScreen> {
                       const Text(
                         'Correct: ',
                         style: TextStyle(
-                            color: Color(0xFF388E3C),
-                            fontWeight: FontWeight.w300,
+                            color: Colors.greenAccent,
+                            fontWeight: FontWeight.bold,
                             fontSize: 20),
                       ),
                       Text(
                         '$correctCount',
                         style: const TextStyle(
-                            color: Color(0xFF388E3C),
-                            fontWeight: FontWeight.w700,
+                            color: Colors.greenAccent,
+                            fontWeight: FontWeight.bold,
                             fontSize: 20),
                       ),
                       const SizedBox(width: 10),
                       const Text(
                         'Incorrect: ',
                         style: TextStyle(
-                            color: Color(0xFFE53935),
-                            fontWeight: FontWeight.w300,
+                            color: Colors.redAccent,
+                            fontWeight: FontWeight.bold,
                             fontSize: 20),
                       ),
                       Text(
                         '$incorrectCount',
                         style: const TextStyle(
-                            color: Color(0xFFE53935),
-                            fontWeight: FontWeight.w700,
+                            color: Colors.redAccent,
+                            fontWeight: FontWeight.bold,
                             fontSize: 20),
                       ),
                     ],

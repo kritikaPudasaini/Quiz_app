@@ -41,25 +41,11 @@ class MarqueeContainer extends StatelessWidget {
       width: double.infinity,
       decoration: const BoxDecoration(
         image: DecorationImage(
-            image: AssetImage("assets/Backgroundimage.jpg"), fit: BoxFit.cover),
-        // gradient: LinearGradient(
-        //   begin: Alignment.topLeft,
-        //   end: Alignment.bottomRight,
-        //   colors: [
-        //     Color.fromARGB(255, 233, 40, 40), // Vibrant Green
-        //     Color(0xFF2196F3), // Vibrant Blue
-        //   ],
-        // ),
-        // borderRadius: BorderRadius.all(Radius.circular(20)),
-        // boxShadow: [
-        //   BoxShadow(
-        //     color: Colors.black26,
-        //     blurRadius: 10,
-        //     offset: Offset(0, 5),
-        //   ),
-        // ],
+            image: AssetImage("assets/Backgroundimage.jpg"),
+             fit: BoxFit.cover),
+        
       ),
-      // margin: const EdgeInsets.symmetric(vertical: 20),
+    
       padding: const EdgeInsets.all(15),
       child: Column(
         children: [
