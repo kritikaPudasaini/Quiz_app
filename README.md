@@ -29,12 +29,7 @@ samples, guidance on mobile development, and a full API reference.
 2. Displays correct and incorrect options alongside the score.
 3. Emphasizes intuitive and visually appealing UI/UX design.
 
-=======
-#Issues:
-1.Flutter doesn't support hover functionality on mobile applications, which limits the interactivity options for certain features.
-2.On the quiz screen, using return Scaffold in Dart led to the creation of a default container, causing the background image to not display as intended.
-3.As a beginner in Flutter, I faced challenges with understanding and implementing proper padding, which affected the layout and design consistency.
->>>>>>> b8389f37a315d144c09a72a61cc7fc6b57c7ccc5
+
 
 
 
