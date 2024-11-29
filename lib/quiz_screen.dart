@@ -189,7 +189,7 @@ class _QuizScreenState extends State<QuizScreen> {
                             fontSize: 20),
                       ),
                     ],
-                  ),
+                  ), 
                   Row(
                     children: [
                       const Text(
